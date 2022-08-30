@@ -1,10 +1,12 @@
 import React from "react";
-import Counter from "./Counter";
+// import Counter from "./exercises/Counter";
+import Form from "./exercises/Form"
 
 export default () => {
     return (
       <div>
-        <Counter />
+        <Form />
       </div>
     );
   };
+  
