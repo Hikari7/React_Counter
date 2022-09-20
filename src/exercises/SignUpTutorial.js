@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-//Youtubeのチュートリアルバージョン
-
+//tutorial version
 function SignUpTutorial() {
   const [values, setValues] = useState({
     firstName: "",
@@ -9,6 +8,10 @@ function SignUpTutorial() {
     email: "",
   });
 
+
+
+
+  
   const [submitted, setSubmitted] = useState(false);
   const [valid, setValid] = useState(false);
 
