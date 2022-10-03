@@ -10,7 +10,7 @@ const GetJsonHolder = () => {
   useEffect(() => {
     const fetchDatas = async () => {
       const datas = await axios.get("https:jsonplaceholder.typicode.com/users");
-
+console.log(datas.data);
       setResult(datas.data);
       // setResult(datas.data[0].name);
     };
@@ -22,9 +22,10 @@ const GetJsonHolder = () => {
   const renderedResults = results.map((result) => {
     return (
       <div className="content">
-        <div className="item">{result.name}</div>
+        {/* <div className="item">{result.name}</div>
         <div className="item">{result.username}</div>
-        <div className="item">{result.email}</div>
+        <div className="item">{result.email}</div> */}
+        <div className="item">{result.email}</div> 
       </div>
     );
   });

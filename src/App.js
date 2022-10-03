@@ -4,12 +4,21 @@ import React from "react";
 // import Form from "./exercises/Form";
 // import Api from "./exercises/Api";
 // import UseRef from "./exercises/UseRef";
-import SignUpTutorial from "./exercises/SignUpTutorial";
+// import SignUpTutorial from "./exercises/SignUpTutorial";
+// import Api2 from "./exercises/Api2";
+import Accordion from "./exercises/Accordion";
+
+//Accordionの親コンポーネント
+const items = [
+  { title: "What is React?", content: "React is the cool JS library" },
+  { title: "Why use React?", content: "Because it's cool" },
+  { title: "How do you use React?", content: "Still learning" },
+];
 
 export default () => {
   return (
     <div>
-      <SignUpTutorial />
+      <Accordion items={items} />
     </div>
   );
 };
