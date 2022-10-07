@@ -6,19 +6,20 @@ import React from "react";
 // import UseRef from "./exercises/UseRef";
 // import SignUpTutorial from "./exercises/SignUpTutorial";
 // import Api2 from "./exercises/Api2";
-import Accordion from "./exercises/Accordion";
+// import Accordion from "./exercises/Accordion";
+import UseContextPractice from "./exercises/UseContext";
 
-//Accordionの親コンポーネント
-const items = [
-  { title: "What is React?", content: "React is the cool JS library" },
-  { title: "Why use React?", content: "Because it's cool" },
-  { title: "How do you use React?", content: "Still learning" },
-];
+// //Accordionの親コンポーネント
+// const items = [
+//   { title: "What is React?", content: "React is the cool JS library" },
+//   { title: "Why use React?", content: "Because it's cool" },
+//   { title: "How do you use React?", content: "Still learning" },
+// ];
 
 export default () => {
   return (
     <div>
-      <Accordion items={items} />
+     <UseContextPractice />
     </div>
   );
 };

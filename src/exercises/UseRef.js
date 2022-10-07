@@ -20,7 +20,3 @@ function Practice() {
   );
 }
 export default Practice;
-
-// <h1>UseRef</h1>
-// <input type="text" ref={ref} />
-// <button onClick={handleRef}>UseRef</button>

@@ -1,4 +1,4 @@
-import { isContentEditable } from "@testing-library/user-event/dist/utils";
+
 import React, { useState } from "react";
 
 const Accordion = ({ items }) => {
