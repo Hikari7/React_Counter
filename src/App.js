@@ -7,7 +7,9 @@ import React from "react";
 // import SignUpTutorial from "./exercises/SignUpTutorial";
 // import Api2 from "./exercises/Api2";
 // import Accordion from "./exercises/Accordion";
-import UseContextPractice from "./exercises/UseContext";
+// import UseContextPractice from "./exercises/UseContext";
+
+import ToDoMain from "./exercises/todoList/ToDoMain";
 
 // //Accordionの親コンポーネント
 // const items = [
@@ -19,7 +21,7 @@ import UseContextPractice from "./exercises/UseContext";
 export default () => {
   return (
     <div>
-     <UseContextPractice />
+      <ToDoMain />
     </div>
   );
 };
