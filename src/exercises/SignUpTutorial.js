@@ -8,10 +8,6 @@ function SignUpTutorial() {
     email: "",
   });
 
-
-
-
-  
   const [submitted, setSubmitted] = useState(false);
   const [valid, setValid] = useState(false);
 
